@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # -*-coding:utf-8 -*-
-'''
-@File    :   data_provider.py
-@Time    :   2023/04/29 11:55:39
-@Author  :   Haoren Zhu
-@Contact :   hzhual@connect.ust.hk
-'''
+
 
 import torch
 import pandas as pd
