@@ -3,7 +3,7 @@ import os
 import torch
 # import wandb
 
-os.environ["WANDB_API_KEY"] = "053079ba1b504a9e8eaaa5704e1319753430c125"
+os.environ["WANDB_API_KEY"] = "XXXX"
 # os.environ["WANDB_MODE"] = 'offline'
 # wandb.login()
 
