@@ -33,7 +33,7 @@ def train_model(config, dp, device):  ###training the model
                                       num_workers=0)
 
     # Create core model allowing for multiple GPU training
-    net = InfluentialNet(config)            #影响力网络架构
+    net = InfluentialNet(config)            
     # if torch.cuda.device_count() > 1:
     #     net = nn.DataParallel(net)
     net.to(device)
@@ -181,17 +181,9 @@ def pipeline(config, evaluator_config, device='cuda:0'):
     dp = DataProvider(config, verbose=True)
     config.num_items = dp.n_item   #lastfm_small  2682
     config.num_users = dp.n_user  #lastfm_small  896
-    # print(dp.n_user, dp.n_item)
-    # exit(-9999)
-    # Train nn1
-    # 训练transformer的过程中不产生路径，就是学习用户交互过的一些行为序列
+
 
     train_model(config, dp, device)
 
-    exit(-999)
-    # Test nn1
-    # 测试的时候既有 random_target(用于产生兴趣牵引的路径， 又有label评估模型的精度)
-
-    test_model(config, dp, device)
 
 
