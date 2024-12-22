@@ -153,10 +153,10 @@ class DataProvider():
                 sep=',',
                 names=['itemId', 'userId', 'rating', 'timestamp'])
 
-        if self.dataset == "lastfm_small":  # 删除同一个用户对统一物品的重复点击行为，保留第一条记录
+        if self.dataset == "lastfm_small":  
             data = data.drop_duplicates(subset=['userId', 'itemId'], keep='first')
 
-        # Remove infrequent items and users, 删除不频繁的数据项，例如过滤掉交互数小于5的用户/物品
+        # Remove infrequent items and users, 
         if threshold != None:
             print("Reduce to k-hop, the least frequency is {}.".format(threshold))
             stop_remove = False  # Recursively remove the infrequent item

@@ -4,16 +4,6 @@ import copy
 from model._abstract_model import SequentialRecModel
 from model._modules import TransformerEncoder, LayerNorm
 
-"""
-[Paper]
-Author: Wang-Cheng Kang et al. 
-Title: "Self-Attentive Sequential Recommendation."
-Conference: ICDM 2018
-
-[Code Reference]
-https://github.com/kang205/SASRec
-https://github.com/Woeee/FMLP-Rec
-"""
 
 class SASRecModel(SequentialRecModel):
     def __init__(self, args):
