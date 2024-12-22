@@ -42,24 +42,6 @@ python test_IPG_PreMatch.py --data_dir ../data/lastfm/  --data_name lastfm --num
 
 ```
 
-### Baseline Methods
-We provide the implementation of IRN methods, one can train it by script:
-```
-python main_IRN.py --data_name lastfm --data_dir ./data/lastfm/ --num_users 945 --num_items 2782
-```
-Then, if you want to evaluate it, using following script:
-```
-cd ./src/
-test_IPG_IRN.py --data_name lastfm --data_dir ../data/lastfm/ --num_users 945 --num_items 2782
-```
-Other baseline methods are analogous. We provide the author's original source code link:
-- SASRec(Pytorch): https://github.com/pmixer/SASRec.pytorch
-- MStein: https://github.com/zfan20/mstein
-- ICSRec: https://github.com/QinHsiu/ICSRec
-- BSARec: https://github.com/yehjin-shin/BSARec
-- IRN: https://github.com/JackShDr/InfluentialRS
-- IPG: https://github.com/GabyUSTC/IPG-Rec
-
 
 
 
