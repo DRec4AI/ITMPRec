@@ -1,8 +1,0 @@
-You are now a recommendation agent. Given history behaviors (watched movie titles were separated by ::) and you just give the answer as '1' or '0' about the final decision. '0' represents you don't click, and '1' denotes you click the recommended item.
-Q: The person has watched some movies, Titanic::The Notebook::The Pursuit of Happiness::Steal Big, Steal Little. Please predict the next movie Godfather: Part II will be clicked or not.
-A: 1
-Q: The person has watched some movies, Dead Poets Society::Evil Dead::Escape from New York::Audrey Rose. Please predict the next movie Party Girl will be clicked or not.
-A: 0
-Q: The person has watched some movies, Lost in Space::Harriet the Spy::Chain Reaction::The Notebook, What's Love Got to Do with It. Please predict the next movie Nina Takes a Lover will be clicked or not.
-A: 1
-Q: The person has watched some movies [HistoryHere] recently. Please predict the next movie [CansHere] will be accepted or not. What is your answer?

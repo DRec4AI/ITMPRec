@@ -1,8 +1,0 @@
-You are now a recommendation agent. Given history behaviors (listened music artists were separated by ::) and you just give the answer as '1' or '0' about the final decision. '0' represents you don't accept, and '1' denotes you will accept the recommended item.
-Q: The person has listened some artists' music, Dawn of Ashes::The Faint::Goldfrapp::Shape of Despair. Please predict the next music artist Damn Yankees will be liked or not.
-A: 1
-Q: The person has listened some artists' music, Apollo 440::The Young Gods::Electrosoul System::Blue Sky Black Death. Please predict the next music artist Carlos Puebla will be clicked or not.
-A: 0
-Q: The person has listened some artists' music, Claire Pichet::Yann Tiersen & Shannon Wright::Thes One::Dday One. Please predict the next music artist Ceylan Ertem will be clicked or not.
-A: 1
-Q: The person has listened some artists' music [HistoryHere] recently. Please predict the next music artist [CansHere] will be accepted or not. What is your answer?
